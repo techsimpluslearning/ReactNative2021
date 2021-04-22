@@ -1,20 +1,17 @@
 import React from "react";
-import Mybutton from "./components/mainButton";
-import Greet from "./components/greet";
+import Counter from "./components/classCounter";
+import LoginForm from "./components/loginForm";
 const App = () => {
   var Data = {
     name: "Jeet",
   };
 
-  const greetNow = () => {
-    alert(`Greet from ${Data.name}`);
-  };
-
   return (
-    <div>
+    <center>
       <h1>Hello to All...</h1>
-      <Greet Name={Data} Age={26} onGreet={greetNow} />
-    </div>
+      <Counter />
+      <LoginForm />
+    </center>
   );
 };
 
