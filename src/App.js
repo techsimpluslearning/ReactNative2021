@@ -7,7 +7,7 @@ const App = () => {
   };
 
   const greetNow = () => {
-    alert(`Now Greet from ${Data.name}`);
+    alert(`Greet from ${Data.name}`);
   };
 
   return (
