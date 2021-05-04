@@ -3,6 +3,9 @@ import Counter from "./components/classCounter";
 import LoginForm from "./components/loginForm";
 import State from "./components/state_eventBinding";
 import MainComponent from "./components/methodAsAProps/mainComponent";
+import HooksCounter from "./components/reactHooks/hooksCounter";
+import LogginFormHooks from "./components/reactHooks/hooksForm";
+
 const App = () => {
   var Data = {
     name: "Jeet",
@@ -14,7 +17,9 @@ const App = () => {
       {/* <Counter />
       <LoginForm />
       <State /> */}
-      <MainComponent />
+      {/* <MainComponent /> */}
+      {/* <HooksCounter /> */}
+      <LogginFormHooks />
     </center>
   );
 };
